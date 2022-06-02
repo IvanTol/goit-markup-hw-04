@@ -151,6 +151,8 @@ header {
 }
 
 .auth-nav .link {
+  display: inline-flex;
+  align-items: center;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
