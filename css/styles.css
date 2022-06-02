@@ -163,6 +163,15 @@ header {
   color: var(--accent-color);
 }
 
+.envelope {
+  margin-right: 10px;
+}
+
+.envelope:hover,
+.envelope:focus {
+  color: var(--accent-color);
+}
+
 /* ----------------------секция герой-----------------------------*/
 
 .section-hero {
@@ -432,20 +441,16 @@ header {
 }
 
 .svg-soc-icon {
-  fill: #AFB1B8;
-  
+  fill: #afb1b8;
 }
 
-
 .link-svg:hover,
-.link-svg:focus
-{
-  background-color: var(--accent-color); 
+.link-svg:focus {
+  background-color: var(--accent-color);
 }
 
 .link-svg:hover .svg-soc-icon,
-.link-svg:focus .svg-soc-icon
-{
+.link-svg:focus .svg-soc-icon {
   fill: #ffffff;
 }
 
@@ -535,9 +540,48 @@ header {
   margin-bottom: 9px;
 }
 
-/* -----------------------------------------------------Стили для Портфолио------------------------------------------------- */
+/* ---------Социальные сети--------*/
+.text-footer {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 
-/* ----------------------------кнопки (button), ilter---------------------------- */
+  color: var(--primary-white-color);
+}
+
+.social-network-footer {
+  display: flex;
+}
+
+.link-network-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--primary-white-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.link-network-footer:first-child {
+  margin-left: 0;
+}
+
+.link-network-footer:hover,
+.link-network-footer:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+
+/*-----------Стили Портфолио------------- */
+
+/* ---------кнопки (button), ilter------- */
 .block-filter {
   padding-top: 94px;
   padding-bottom: 94px;
