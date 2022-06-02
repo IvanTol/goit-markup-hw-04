@@ -445,8 +445,36 @@ header {
 
 .link-svg:hover .svg-soc-icon,
 .link-svg:focus .svg-soc-icon
-.link-svg:focus  {
+{
   fill: #ffffff;
+}
+
+/* ---------------Постоянные клиенты---------------*/
+.section-client {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-svg-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+
+.link-svg-logo:hover,
+.link-svg-logo:focus {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* ---------------------------подвал (footer)------------------------- */
