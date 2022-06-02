@@ -165,12 +165,10 @@ header {
 
 .envelope {
   margin-right: 10px;
+  fill: currentColor;
+  align-items: baseline;
 }
 
-.envelope:hover,
-.envelope:focus {
-  color: var(--accent-color);
-}
 
 /* ----------------------секция герой-----------------------------*/
 
@@ -541,6 +539,11 @@ header {
 }
 
 /* ---------Социальные сети--------*/
+.container .footer {
+  display: flex;
+  align-items: baseline;
+}
+
 .text-footer {
   font-weight: 700;
   font-size: 14px;
