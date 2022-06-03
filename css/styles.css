@@ -490,6 +490,11 @@ header {
   padding-bottom: 60px;
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
 .link.aside-link {
   display: inline-block;
   margin-bottom: 9px;
@@ -541,16 +546,17 @@ header {
 }
 
 /* ---------Социальные сети--------*/
-.container .footer {
-  display: flex;
-  align-items: baseline;
+
+.network-footer {
+  margin-left: 70px;
 }
 
 .text-footer {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  margin: 0;
+  margin: 0px;
   margin-bottom: 20px;
   text-transform: uppercase;
 
@@ -584,7 +590,7 @@ header {
   fill: var(--primary-white-color);
 }
 
-/*-----------Стили Портфолио------------- */
+/*---------------------------Стили Портфолио------------------------- */
 
 /* ---------кнопки (button), ilter------- */
 .block-filter {
